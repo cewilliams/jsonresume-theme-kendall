@@ -180,7 +180,7 @@ function render(resumeObject) {
                         e.endDateYear += " (expected)";
                     }
                 } else {
-                    e.endDateYear = 'Present'
+                    e.endDateYear = ''
                     e.endDateMonth = '';
                 }
                 if (e.courses) {
