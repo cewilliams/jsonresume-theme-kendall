@@ -69,9 +69,9 @@
                       <a href="{{url}}" target= "_blank"><i class="fas fa-globe ico"></i> {{url}}</a>
                     </div>
                     {{/url}}
-		    {{#endDateYear}}
+		    {{#startDateYear}}
                     <div class="year">{{startDateMonth}}{{startDateYear}} – {{endDateMonth}}{{endDateYear}}</div>
-		    {{/endDateYear}}
+		    {{/startDateYear}}
                   </div>
                 </div>
                 <div class="row">
